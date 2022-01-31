@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@1,300&family=Rock+Salt&display=swap');
+
+html {
+    height: 100%
+}
+
+body{
+    height: 100%;
+    margin: 0;
+    font-family: Open Sans Condensed;
+}
+
+#kokopaska{
+    background: rgb(173, 173, 173);
+    display: flex;
+    height: 100%;
+}
+
+#main{
+    font-family: Rock Salt;
+}
+
+#side{
+    background: white;
+    width: 40%;
+    height: 100%;
+}
+
+#side .container{
+    padding-top: 420px;
+    padding-left: 50px;
+}
+
+#main .container{
+    padding-top: 460px;
+    padding-left: 30px;
+}
+
+#upLeftCorner{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    position: absolute;
+    border-width: 0 0 450px 600px;
+    border-color: transparent transparent transparent rgb(87, 87, 87);
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+img{
+    position: absolute;
+    height: auto;
+    width: auto;  
+    z-index: 2;
+    top: 93px;
+    left: 145px;
+}
+
+
