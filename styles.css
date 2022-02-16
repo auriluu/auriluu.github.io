@@ -5,36 +5,37 @@ html {
     height: 100%
 }
 
-body{
+body {
     height: 100%;
     margin: 0;
     font-family: Open Sans Condensed;
 }
 
-#kokopaska{
-    background: rgb(173, 173, 173);
-    display: flex;
+.container, .row {
     height: 100%;
 }
 
-#main{
+.info {
+    margin-top: 25rem;
+}
+
+h1 {
+   font-family: Rock Salt;
+}
+
+.main {
     font-family: Rock Salt;
+    background: #aaaaaa;
 }
 
-#side{
+.skills{
+    font-family: Rock Salt;
+    background: #aaaaaa;
+    margin-top: 30rem;
+}
+
+.side {
     background: white;
-    width: 40%;
-    height: 100%;
-}
-
-#side .container{
-    padding-top: 420px;
-    padding-left: 50px;
-}
-
-#main .container{
-    padding-top: 460px;
-    padding-left: 30px;
 }
 
 #upLeftCorner{
@@ -49,13 +50,22 @@ body{
     z-index: 1;
 }
 
-img{
-    position: absolute;
+img {
+    position: fixed;
     height: auto;
     width: auto;  
-    z-index: 2;
+    z-index: auto;
     top: 93px;
     left: 145px;
 }
 
+a.linkki {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+a.linkki:hover {
+    color: rgb(167, 167, 167);
+}
 
